@@ -16,6 +16,7 @@
 		D62E2891249BB9AB008ECC98 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D62E288F249BB9AB008ECC98 /* LaunchScreen.storyboard */; };
 		D62E289C249BB9AB008ECC98 /* UIViewAutolayoutExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D62E289B249BB9AB008ECC98 /* UIViewAutolayoutExampleTests.swift */; };
 		D62E28A7249BB9AB008ECC98 /* UIViewAutolayoutExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D62E28A6249BB9AB008ECC98 /* UIViewAutolayoutExampleUITests.swift */; };
+		D62E28B5249BBB7C008ECC98 /* CellDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D62E28B4249BBB7C008ECC98 /* CellDetailsVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		D62E28A2249BB9AB008ECC98 /* UIViewAutolayoutExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UIViewAutolayoutExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D62E28A6249BB9AB008ECC98 /* UIViewAutolayoutExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewAutolayoutExampleUITests.swift; sourceTree = "<group>"; };
 		D62E28A8249BB9AB008ECC98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D62E28B4249BBB7C008ECC98 /* CellDetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellDetailsVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +106,7 @@
 				D62E2881249BB9AA008ECC98 /* AppDelegate.swift */,
 				D62E2883249BB9AA008ECC98 /* SceneDelegate.swift */,
 				D62E2885249BB9AA008ECC98 /* ViewController.swift */,
+				D62E28B4249BBB7C008ECC98 /* CellDetailsVC.swift */,
 				D62E2887249BB9AA008ECC98 /* Main.storyboard */,
 				D62E288D249BB9AB008ECC98 /* Assets.xcassets */,
 				D62E288F249BB9AB008ECC98 /* LaunchScreen.storyboard */,
@@ -263,6 +266,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D62E288C249BB9AA008ECC98 /* UIViewAutolayoutExample.xcdatamodeld in Sources */,
+				D62E28B5249BBB7C008ECC98 /* CellDetailsVC.swift in Sources */,
 				D62E2886249BB9AA008ECC98 /* ViewController.swift in Sources */,
 				D62E2882249BB9AA008ECC98 /* AppDelegate.swift in Sources */,
 				D62E2884249BB9AA008ECC98 /* SceneDelegate.swift in Sources */,

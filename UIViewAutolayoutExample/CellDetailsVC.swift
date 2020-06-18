@@ -9,7 +9,8 @@
 import UIKit
 
 class CellDetailsVC: UITableViewCell {
-
+    @IBOutlet var labelLeftCell: UILabel!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
