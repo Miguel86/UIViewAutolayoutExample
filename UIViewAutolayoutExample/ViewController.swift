@@ -21,12 +21,13 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         details.dataSource = self
         
         
-        headerView.autoresizingMask = .flexibleWidth
-        headerView.translatesAutoresizingMaskIntoConstraints = true
-        details.tableHeaderView = headerView
-        // Do any additional setup after loading the view.
-        
         labelRight.text = "This is a long text that won't fit in 1 line"
+        
+        // 1. Setup AutoLayout
+        self.setTableHeaderView(headerView: self.details.tableHeaderView!)
+        
+        // 2. First layout update
+        self.updateHeaderViewFrame()
     }
 
     func numberOfSections(in tableView: UITableView) -> Int {
@@ -39,8 +40,32 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
         let cell = tableView.dequeueReusableCell(withIdentifier: "reuseIdentifierCell") as! CellDetailsVC
-        cell.labelLeftCell.text = String(indexPath.row)
         return cell
+    }
+    
+    // Set table header view & add Auto layout.
+    func setTableHeaderView(headerView: UIView) {
+        headerView.translatesAutoresizingMaskIntoConstraints = false
+        
+        // Set first.
+        self.details.tableHeaderView = headerView
+        
+        // Then setup AutoLayout.
+        headerView.centerXAnchor.constraint(equalTo: self.details.centerXAnchor).isActive = true
+        headerView.widthAnchor.constraint(equalTo: self.details.widthAnchor).isActive = true
+        headerView.topAnchor.constraint(equalTo: self.details.topAnchor).isActive = true
+    }
+    
+    /// Update header view's frame.
+    func updateHeaderViewFrame() {
+        guard let headerView = self.details.tableHeaderView else { return }
+        
+        // Update the size of the header based on its internal content.
+        headerView.layoutIfNeeded()
+        
+        // ***Trigger table view to know that header should be updated.
+        let header = self.details.tableHeaderView
+        self.details.tableHeaderView = header
     }
 }
 
