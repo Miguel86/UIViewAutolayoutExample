@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		094011EA618A0CF7A86958F3 /* Pods_UIViewAutolayoutExampleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A45124A6FD3DC025A79F0183 /* Pods_UIViewAutolayoutExampleTests.framework */; };
+		73C069A403C8EE6F52F592BC /* Pods_UIViewAutolayoutExample_UIViewAutolayoutExampleUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C34CE3ABAE6F89AC64F5C36B /* Pods_UIViewAutolayoutExample_UIViewAutolayoutExampleUITests.framework */; };
+		975DB93DA659A048353C034E /* Pods_UIViewAutolayoutExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F523718124E55CA504512FF5 /* Pods_UIViewAutolayoutExample.framework */; };
 		D62E2882249BB9AA008ECC98 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D62E2881249BB9AA008ECC98 /* AppDelegate.swift */; };
 		D62E2884249BB9AA008ECC98 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D62E2883249BB9AA008ECC98 /* SceneDelegate.swift */; };
 		D62E2886249BB9AA008ECC98 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D62E2885249BB9AA008ECC98 /* ViewController.swift */; };
@@ -37,6 +40,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		161EDFD4662B958C62A0F7F9 /* Pods-UIViewAutolayoutExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UIViewAutolayoutExample.debug.xcconfig"; path = "Target Support Files/Pods-UIViewAutolayoutExample/Pods-UIViewAutolayoutExample.debug.xcconfig"; sourceTree = "<group>"; };
+		5DD1BB0A594BE1E6496CC772 /* Pods-UIViewAutolayoutExampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UIViewAutolayoutExampleTests.release.xcconfig"; path = "Target Support Files/Pods-UIViewAutolayoutExampleTests/Pods-UIViewAutolayoutExampleTests.release.xcconfig"; sourceTree = "<group>"; };
+		9E660B8233B057F30FA48351 /* Pods-UIViewAutolayoutExample-UIViewAutolayoutExampleUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UIViewAutolayoutExample-UIViewAutolayoutExampleUITests.release.xcconfig"; path = "Target Support Files/Pods-UIViewAutolayoutExample-UIViewAutolayoutExampleUITests/Pods-UIViewAutolayoutExample-UIViewAutolayoutExampleUITests.release.xcconfig"; sourceTree = "<group>"; };
+		A45124A6FD3DC025A79F0183 /* Pods_UIViewAutolayoutExampleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UIViewAutolayoutExampleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4F2373E10C4C2AED4E0758C /* Pods-UIViewAutolayoutExample-UIViewAutolayoutExampleUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UIViewAutolayoutExample-UIViewAutolayoutExampleUITests.debug.xcconfig"; path = "Target Support Files/Pods-UIViewAutolayoutExample-UIViewAutolayoutExampleUITests/Pods-UIViewAutolayoutExample-UIViewAutolayoutExampleUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		C34CE3ABAE6F89AC64F5C36B /* Pods_UIViewAutolayoutExample_UIViewAutolayoutExampleUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UIViewAutolayoutExample_UIViewAutolayoutExampleUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D62E287E249BB9AA008ECC98 /* UIViewAutolayoutExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIViewAutolayoutExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D62E2881249BB9AA008ECC98 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D62E2883249BB9AA008ECC98 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -53,6 +62,9 @@
 		D62E28A6249BB9AB008ECC98 /* UIViewAutolayoutExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewAutolayoutExampleUITests.swift; sourceTree = "<group>"; };
 		D62E28A8249BB9AB008ECC98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D62E28B4249BBB7C008ECC98 /* CellDetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellDetailsVC.swift; sourceTree = "<group>"; };
+		DC31B706581082D38C04F281 /* Pods-UIViewAutolayoutExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UIViewAutolayoutExample.release.xcconfig"; path = "Target Support Files/Pods-UIViewAutolayoutExample/Pods-UIViewAutolayoutExample.release.xcconfig"; sourceTree = "<group>"; };
+		F46EEAB12EB9E19F7E28B05F /* Pods-UIViewAutolayoutExampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UIViewAutolayoutExampleTests.debug.xcconfig"; path = "Target Support Files/Pods-UIViewAutolayoutExampleTests/Pods-UIViewAutolayoutExampleTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F523718124E55CA504512FF5 /* Pods_UIViewAutolayoutExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UIViewAutolayoutExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				975DB93DA659A048353C034E /* Pods_UIViewAutolayoutExample.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -67,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				094011EA618A0CF7A86958F3 /* Pods_UIViewAutolayoutExampleTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,12 +88,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				73C069A403C8EE6F52F592BC /* Pods_UIViewAutolayoutExample_UIViewAutolayoutExampleUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		253314CD7CF344496A192581 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F523718124E55CA504512FF5 /* Pods_UIViewAutolayoutExample.framework */,
+				C34CE3ABAE6F89AC64F5C36B /* Pods_UIViewAutolayoutExample_UIViewAutolayoutExampleUITests.framework */,
+				A45124A6FD3DC025A79F0183 /* Pods_UIViewAutolayoutExampleTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D131FC64E2A7B6835CD22996 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				161EDFD4662B958C62A0F7F9 /* Pods-UIViewAutolayoutExample.debug.xcconfig */,
+				DC31B706581082D38C04F281 /* Pods-UIViewAutolayoutExample.release.xcconfig */,
+				A4F2373E10C4C2AED4E0758C /* Pods-UIViewAutolayoutExample-UIViewAutolayoutExampleUITests.debug.xcconfig */,
+				9E660B8233B057F30FA48351 /* Pods-UIViewAutolayoutExample-UIViewAutolayoutExampleUITests.release.xcconfig */,
+				F46EEAB12EB9E19F7E28B05F /* Pods-UIViewAutolayoutExampleTests.debug.xcconfig */,
+				5DD1BB0A594BE1E6496CC772 /* Pods-UIViewAutolayoutExampleTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		D62E2875249BB9AA008ECC98 = {
 			isa = PBXGroup;
 			children = (
@@ -87,6 +126,8 @@
 				D62E289A249BB9AB008ECC98 /* UIViewAutolayoutExampleTests */,
 				D62E28A5249BB9AB008ECC98 /* UIViewAutolayoutExampleUITests */,
 				D62E287F249BB9AA008ECC98 /* Products */,
+				D131FC64E2A7B6835CD22996 /* Pods */,
+				253314CD7CF344496A192581 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -141,9 +182,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D62E28AB249BB9AB008ECC98 /* Build configuration list for PBXNativeTarget "UIViewAutolayoutExample" */;
 			buildPhases = (
+				561C6823909C2EAF73FB0A46 /* [CP] Check Pods Manifest.lock */,
 				D62E287A249BB9AA008ECC98 /* Sources */,
 				D62E287B249BB9AA008ECC98 /* Frameworks */,
 				D62E287C249BB9AA008ECC98 /* Resources */,
+				1FA420496EBCE58EAE4874FF /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -158,6 +201,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D62E28AE249BB9AB008ECC98 /* Build configuration list for PBXNativeTarget "UIViewAutolayoutExampleTests" */;
 			buildPhases = (
+				59855D3923D817304AEB8C1E /* [CP] Check Pods Manifest.lock */,
 				D62E2893249BB9AB008ECC98 /* Sources */,
 				D62E2894249BB9AB008ECC98 /* Frameworks */,
 				D62E2895249BB9AB008ECC98 /* Resources */,
@@ -176,9 +220,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D62E28B1249BB9AB008ECC98 /* Build configuration list for PBXNativeTarget "UIViewAutolayoutExampleUITests" */;
 			buildPhases = (
+				E1AF7B1BAFE0AB7F35620665 /* [CP] Check Pods Manifest.lock */,
 				D62E289E249BB9AB008ECC98 /* Sources */,
 				D62E289F249BB9AB008ECC98 /* Frameworks */,
 				D62E28A0249BB9AB008ECC98 /* Resources */,
+				EA6B3ADBDD6D7708E081E02F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -259,6 +305,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1FA420496EBCE58EAE4874FF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-UIViewAutolayoutExample/Pods-UIViewAutolayoutExample-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-UIViewAutolayoutExample/Pods-UIViewAutolayoutExample-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-UIViewAutolayoutExample/Pods-UIViewAutolayoutExample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		561C6823909C2EAF73FB0A46 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-UIViewAutolayoutExample-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		59855D3923D817304AEB8C1E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-UIViewAutolayoutExampleTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E1AF7B1BAFE0AB7F35620665 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-UIViewAutolayoutExample-UIViewAutolayoutExampleUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EA6B3ADBDD6D7708E081E02F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-UIViewAutolayoutExample-UIViewAutolayoutExampleUITests/Pods-UIViewAutolayoutExample-UIViewAutolayoutExampleUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-UIViewAutolayoutExample-UIViewAutolayoutExampleUITests/Pods-UIViewAutolayoutExample-UIViewAutolayoutExampleUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-UIViewAutolayoutExample-UIViewAutolayoutExampleUITests/Pods-UIViewAutolayoutExample-UIViewAutolayoutExampleUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		D62E287A249BB9AA008ECC98 /* Sources */ = {
@@ -440,6 +589,7 @@
 		};
 		D62E28AC249BB9AB008ECC98 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 161EDFD4662B958C62A0F7F9 /* Pods-UIViewAutolayoutExample.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -458,6 +608,7 @@
 		};
 		D62E28AD249BB9AB008ECC98 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC31B706581082D38C04F281 /* Pods-UIViewAutolayoutExample.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -476,6 +627,7 @@
 		};
 		D62E28AF249BB9AB008ECC98 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F46EEAB12EB9E19F7E28B05F /* Pods-UIViewAutolayoutExampleTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -498,6 +650,7 @@
 		};
 		D62E28B0249BB9AB008ECC98 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5DD1BB0A594BE1E6496CC772 /* Pods-UIViewAutolayoutExampleTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -520,6 +673,7 @@
 		};
 		D62E28B2249BB9AB008ECC98 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A4F2373E10C4C2AED4E0758C /* Pods-UIViewAutolayoutExample-UIViewAutolayoutExampleUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -540,6 +694,7 @@
 		};
 		D62E28B3249BB9AB008ECC98 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9E660B8233B057F30FA48351 /* Pods-UIViewAutolayoutExample-UIViewAutolayoutExampleUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
